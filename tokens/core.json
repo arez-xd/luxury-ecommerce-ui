@@ -1,17 +1,27 @@
 {
   "core": {
     "space": {
-      "4": { "value": 4 },
-      "8": { "value": 8 },
+      "0":  { "value": 0 },
+      "2":  { "value": 2 },
+      "4":  { "value": 4 },
+      "6":  { "value": 6 },
+      "8":  { "value": 8 },
+      "10": { "value": 10 },
       "12": { "value": 12 },
       "16": { "value": 16 },
-      "24": { "value": 24 }
+      "20": { "value": 20 },
+      "24": { "value": 24 },
+      "32": { "value": 32 },
+      "40": { "value": 40 },
+      "48": { "value": 48 }
     },
 
     "radius": {
-      "4": { "value": 4 },
-      "8": { "value": 8 },
-      "12": { "value": 12 }
+      "0":  { "value": 0 },
+      "4":  { "value": 4 },
+      "8":  { "value": 8 },
+      "12": { "value": 12 },
+      "16": { "value": 16 }
     },
 
     "border": {
@@ -24,17 +34,21 @@
 
     "color": {
       "base": {
-        "white": { "value": "#FFFFFF" },
+        "white":    { "value": "#FFFFFF" },
         "offwhite": { "value": "#FEFEFE" },
-        "black": { "value": "#0C0C0C" },
-        "red": { "value": "#FF3B30" },
-        "green": { "value": "#34C759" }
+        "black":    { "value": "#0C0C0C" },
+
+        "red":      { "value": "#FF3B30" },
+        "green":    { "value": "#34C759" },
+        "amber":    { "value": "#9A6B1F" }
       },
+
       "brand": {
         "cta": { "value": "#1E1F20" }
       },
+
       "gray": {
-        "50": { "value": "#F9FAFB" },
+        "50":  { "value": "#F9FAFB" },
         "100": { "value": "#F3F4F6" },
         "200": { "value": "#E5E7EB" },
         "300": { "value": "#D1D5DB" },
@@ -52,12 +66,14 @@
       "family": {
         "sans": { "value": "SF Pro Text" }
       },
+
       "weight": {
-        "regular": { "value": 400 },
-        "medium": { "value": 500 },
+        "regular":  { "value": 400 },
+        "medium":   { "value": 500 },
         "semibold": { "value": 600 },
-        "bold": { "value": 700 }
+        "bold":     { "value": 700 }
       },
+
       "size": {
         "10": { "value": 10 },
         "11": { "value": 11 },
@@ -71,6 +87,7 @@
         "28": { "value": 28 },
         "34": { "value": 34 }
       },
+
       "lineHeight": {
         "12": { "value": 12 },
         "13": { "value": 13 },
@@ -83,9 +100,20 @@
         "34": { "value": 34 },
         "41": { "value": 41 }
       },
+
       "letterSpacing": {
         "normal": { "value": 0 }
       }
+    },
+
+    "opacity": {
+      "0":   { "value": 0 },
+      "10":  { "value": 0.1 },
+      "20":  { "value": 0.2 },
+      "40":  { "value": 0.4 },
+      "60":  { "value": 0.6 },
+      "80":  { "value": 0.8 },
+      "100": { "value": 1 }
     }
   }
 }
