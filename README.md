@@ -3,7 +3,7 @@
 ![Platform](https://img.shields.io/badge/platform-iOS-black)
 ![Domain](https://img.shields.io/badge/domain-e--commerce-1E1F20)
 ![Architecture](https://img.shields.io/badge/architecture-core→semantic-success)
-![Status](https://img.shields.io/badge/status-production--validated-2E7D32)
+![Status](https://img.shields.io/badge/status-production--validated-informational)
 ![Accessibility](https://img.shields.io/badge/accessibility-contrast--aware-6B7280)
 
 This repository defines the visual foundations of a real user interface: color, typography, spacing, radii, borders, and interaction states.
