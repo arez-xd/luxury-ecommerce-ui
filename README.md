@@ -1,6 +1,11 @@
 # Luxury E-commerce UI Architecture
 
-A design token system for a production luxury e-commerce product.
+![Platform](https://img.shields.io/badge/platform-iOS-black)
+![Domain](https://img.shields.io/badge/domain-e--commerce-1E1F20)
+![Architecture](https://img.shields.io/badge/architecture-core→semantic-success)
+![Status](https://img.shields.io/badge/status-production--validated-2E7D32)
+![Accessibility](https://img.shields.io/badge/accessibility-contrast--aware-6B7280)
+![Version](https://img.shields.io/badge/version-1.0.0-informational)
 
 This repository defines the visual foundations of a real user interface: color, typography, spacing, radii, borders, and interaction states.
 It is structured around a clear separation between core primitives and semantic tokens, with the goal of keeping the system predictable, maintainable, and safe to evolve over time.
