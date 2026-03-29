@@ -1,0 +1,226 @@
+{
+  "color": {
+    "bg": {
+      "canvas": { "$value": "{color.base.neutral.50}", "$type": "color" },
+      "surface": {
+        "base": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "raised": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "sunken": { "$value": "{color.base.neutral.50}", "$type": "color" },
+        "inverse": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "accent": { "$value": "{color.base.gold.100}", "$type": "color" }
+      }
+    },
+    "text": {
+      "primary": { "$value": "{color.base.neutral.1000}", "$type": "color" },
+      "secondary": { "$value": "{color.base.neutral.700}", "$type": "color" },
+      "tertiary": { "$value": "{color.base.neutral.600}", "$type": "color" },
+      "disabled": { "$value": "{color.base.neutral.400}", "$type": "color" },
+      "inverse": { "$value": "{color.base.neutral.0}", "$type": "color" },
+      "accent": { "$value": "{color.base.gold.600}", "$type": "color" }
+    },
+    "icon": {
+      "primary": { "$value": "{color.base.neutral.900}", "$type": "color" },
+      "secondary": { "$value": "{color.base.neutral.700}", "$type": "color" },
+      "tertiary": { "$value": "{color.base.neutral.500}", "$type": "color" },
+      "disabled": { "$value": "{color.base.neutral.400}", "$type": "color" },
+      "inverse": { "$value": "{color.base.neutral.0}", "$type": "color" },
+      "accent": { "$value": "{color.base.gold.500}", "$type": "color" }
+    },
+    "border": {
+      "subtle": { "$value": "{color.base.neutral.100}", "$type": "color" },
+      "default": { "$value": "{color.base.neutral.200}", "$type": "color" },
+      "strong": { "$value": "{color.base.neutral.400}", "$type": "color" },
+      "focus": { "$value": "{color.base.gold.500}", "$type": "color" },
+      "inverse": { "$value": "{color.alpha.white.24}", "$type": "color" }
+    },
+    "nav": {
+      "surface": {
+        "base": { "$value": "{color.base.neutral.0}", "$type": "color" }
+      },
+      "border": {
+        "subtle": { "$value": "{color.base.neutral.100}", "$type": "color" }
+      },
+      "icon": {
+        "active": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "inactive": { "$value": "{color.base.neutral.400}", "$type": "color" }
+      },
+      "label": {
+        "active": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "inactive": { "$value": "{color.base.neutral.500}", "$type": "color" }
+      }
+    },
+    "hero": {
+      "overlay": {
+        "scrim": { "$value": "{color.alpha.black.40}", "$type": "color" }
+      },
+      "text": {
+        "primary": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "secondary": { "$value": "{color.alpha.white.80}", "$type": "color" }
+      },
+      "control": {
+        "active": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "inactive": { "$value": "{color.alpha.white.40}", "$type": "color" }
+      }
+    },
+    "interactive": {
+      "primary": {
+        "default": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "hover": { "$value": "{color.base.neutral.900}", "$type": "color" },
+        "pressed": { "$value": "{color.base.neutral.1000}", "$type": "color" },
+        "disabled": { "$value": "{color.base.neutral.200}", "$type": "color" },
+        "text": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "icon": { "$value": "{color.base.neutral.0}", "$type": "color" }
+      },
+      "secondary": {
+        "default": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "hover": { "$value": "{color.base.neutral.50}", "$type": "color" },
+        "pressed": { "$value": "{color.base.neutral.100}", "$type": "color" },
+        "disabled": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "text": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "icon": { "$value": "{color.base.neutral.950}", "$type": "color" }
+      },
+      "accent": {
+        "default": { "$value": "{color.base.gold.500}", "$type": "color" },
+        "hover": { "$value": "{color.base.gold.400}", "$type": "color" },
+        "pressed": { "$value": "{color.base.gold.600}", "$type": "color" },
+        "disabled": { "$value": "{color.base.gold.200}", "$type": "color" },
+        "text": { "$value": "{color.base.neutral.1000}", "$type": "color" },
+        "icon": { "$value": "{color.base.neutral.1000}", "$type": "color" }
+      }
+    },
+    "status": {
+      "success": {
+        "fg": { "$value": "{color.base.green.700}", "$type": "color" },
+        "bg": { "$value": "{color.base.green.100}", "$type": "color" },
+        "border": { "$value": "{color.base.green.500}", "$type": "color" }
+      },
+      "error": {
+        "fg": { "$value": "{color.base.red.700}", "$type": "color" },
+        "bg": { "$value": "{color.base.red.100}", "$type": "color" },
+        "border": { "$value": "{color.base.red.500}", "$type": "color" }
+      },
+      "warning": {
+        "fg": { "$value": "{color.base.amber.700}", "$type": "color" },
+        "bg": { "$value": "{color.base.amber.100}", "$type": "color" },
+        "border": { "$value": "{color.base.amber.500}", "$type": "color" }
+      },
+      "info": {
+        "fg": { "$value": "{color.base.blue.700}", "$type": "color" },
+        "bg": { "$value": "{color.base.blue.100}", "$type": "color" },
+        "border": { "$value": "{color.base.blue.500}", "$type": "color" }
+      }
+    },
+    "focus": {
+      "ring": { "$value": "{color.base.gold.500}", "$type": "color" }
+    },
+    "overlay": {
+      "scrim": { "$value": "{color.alpha.black.40}", "$type": "color" },
+      "pressed": { "$value": "{color.alpha.black.8}", "$type": "color" }
+    },
+    "productCard": {
+      "surface": { "$value": "{color.base.neutral.0}", "$type": "color" },
+      "title": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "meta": { "$value": "{color.base.neutral.600}", "$type": "color" },
+      "price": { "$value": "{color.base.neutral.1000}", "$type": "color" },
+      "favorite": {
+        "default": { "$value": "{color.alpha.white.80}", "$type": "color" },
+        "selected": { "$value": "{color.base.red.500}", "$type": "color" }
+      },
+      "rating": {
+        "icon": { "$value": "{color.base.gold.500}", "$type": "color" },
+        "text": { "$value": "{color.base.neutral.700}", "$type": "color" }
+      }
+    },
+    "searchField": {
+      "surface": { "$value": "{color.base.neutral.50}", "$type": "color" },
+      "placeholder": { "$value": "{color.base.neutral.500}", "$type": "color" },
+      "text": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "icon": { "$value": "{color.base.neutral.700}", "$type": "color" }
+    },
+    "categoryTile": {
+      "surface": { "$value": "{color.base.neutral.0}", "$type": "color" },
+      "title": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "border": { "$value": "{color.base.neutral.100}", "$type": "color" }
+    },
+    "filterChip": {
+      "bg": {
+        "default": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "selected": { "$value": "{color.base.neutral.950}", "$type": "color" }
+      },
+      "text": {
+        "default": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "selected": { "$value": "{color.base.neutral.0}", "$type": "color" }
+      },
+      "border": {
+        "default": { "$value": "{color.base.neutral.200}", "$type": "color" },
+        "selected": { "$value": "{color.base.neutral.950}", "$type": "color" }
+      }
+    },
+    "optionChip": {
+      "bg": {
+        "default": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "selected": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "disabled": { "$value": "{color.base.neutral.50}", "$type": "color" }
+      },
+      "text": {
+        "default": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "selected": { "$value": "{color.base.neutral.0}", "$type": "color" }
+      },
+      "border": {
+        "default": { "$value": "{color.base.neutral.200}", "$type": "color" },
+        "selected": { "$value": "{color.base.neutral.950}", "$type": "color" },
+        "disabled": { "$value": "{color.base.neutral.100}", "$type": "color" }
+      }
+    },
+    "swatch": {
+      "ring": {
+        "whiteGold": { "$value": "{color.base.neutral.200}", "$type": "color" },
+        "yellowGold": { "$value": "{color.base.gold.500}", "$type": "color" },
+        "roseGold": { "$value": "{color.base.amber.100}", "$type": "color" }
+      }
+    },
+    "pdp": {
+      "price": { "$value": "{color.base.neutral.1000}", "$type": "color" },
+      "specLabel": { "$value": "{color.base.neutral.500}", "$type": "color" },
+      "specValue": { "$value": "{color.base.neutral.700}", "$type": "color" }
+    },
+    "viewer": {
+      "surface": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "icon": { "$value": "{color.alpha.white.80}", "$type": "color" },
+      "iconSelected": { "$value": "{color.base.neutral.0}", "$type": "color" },
+      "label": { "$value": "{color.alpha.white.80}", "$type": "color" },
+      "scrim": { "$value": "{color.alpha.black.24}", "$type": "color" }
+    },
+    "infoCard": {
+      "surface": { "$value": "{color.base.neutral.50}", "$type": "color" },
+      "icon": { "$value": "{color.base.neutral.700}", "$type": "color" },
+      "title": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "body": { "$value": "{color.base.neutral.700}", "$type": "color" }
+    },
+    "checkout": {
+      "surface": {
+        "base": { "$value": "{color.base.neutral.0}", "$type": "color" },
+        "subtle": { "$value": "{color.base.neutral.50}", "$type": "color" }
+      },
+      "title": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "body": { "$value": "{color.base.neutral.700}", "$type": "color" },
+      "meta": { "$value": "{color.base.neutral.500}", "$type": "color" },
+      "price": { "$value": "{color.base.neutral.1000}", "$type": "color" },
+      "accent": { "$value": "{color.base.gold.600}", "$type": "color" }
+    },
+    "footer": {
+      "surface": { "$value": "{color.base.neutral.950}", "$type": "color" },
+      "text": { "$value": "{color.alpha.white.80}", "$type": "color" }
+    },
+    "data": {
+      "series": {
+        "1": { "$value": "{color.base.gold.500}", "$type": "color" },
+        "2": { "$value": "{color.base.blue.500}", "$type": "color" },
+        "3": { "$value": "{color.base.green.500}", "$type": "color" },
+        "4": { "$value": "{color.base.red.500}", "$type": "color" },
+        "5": { "$value": "{color.base.neutral.500}", "$type": "color" },
+        "6": { "$value": "{color.base.amber.500}", "$type": "color" }
+      }
+    }
+  }
+}
