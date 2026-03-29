@@ -116,21 +116,6 @@ design-system/
     └── README.md
 ```
 
-## Build
-
-Run:
-
-```bash
-npm run build:tokens
-```
-
-This regenerates:
-
-- `tokens/build/ts/tokens.ts`
-- `tokens/build/ios/tokens.swift`
-
-These build artifacts are generated from the token source and should not be edited manually.
-
 ## System Intent
 
 - Product type: consumer
