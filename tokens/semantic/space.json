@@ -1,0 +1,79 @@
+{
+  "space": {
+    "inset": {
+      "compact": { "$value": "{space.12}", "$type": "number" },
+      "default": { "$value": "{space.16}", "$type": "number" },
+      "comfortable": { "$value": "{space.24}", "$type": "number" },
+      "screen": { "$value": "{space.20}", "$type": "number" },
+      "card": { "$value": "{space.16}", "$type": "number" }
+    },
+    "stack": {
+      "2xs": { "$value": "{space.4}", "$type": "number" },
+      "xs": { "$value": "{space.8}", "$type": "number" },
+      "sm": { "$value": "{space.12}", "$type": "number" },
+      "md": { "$value": "{space.16}", "$type": "number" },
+      "lg": { "$value": "{space.24}", "$type": "number" },
+      "xl": { "$value": "{space.32}", "$type": "number" },
+      "2xl": { "$value": "{space.40}", "$type": "number" }
+    },
+    "cluster": {
+      "xs": { "$value": "{space.8}", "$type": "number" },
+      "sm": { "$value": "{space.12}", "$type": "number" },
+      "md": { "$value": "{space.16}", "$type": "number" },
+      "lg": { "$value": "{space.20}", "$type": "number" }
+    },
+    "section": {
+      "sm": { "$value": "{space.24}", "$type": "number" },
+      "md": { "$value": "{space.32}", "$type": "number" },
+      "lg": { "$value": "{space.48}", "$type": "number" }
+    },
+    "hero": {
+      "inset": { "$value": "{space.24}", "$type": "number" },
+      "stack": { "$value": "{space.12}", "$type": "number" }
+    },
+    "control": {
+      "xs": { "$value": "{space.8}", "$type": "number" },
+      "sm": { "$value": "{space.12}", "$type": "number" },
+      "md": { "$value": "{space.16}", "$type": "number" }
+    },
+    "nav": {
+      "item": {
+        "gap": { "$value": "{space.2}", "$type": "number" }
+      }
+    },
+    "field": {
+      "xs": { "$value": "{space.8}", "$type": "number" },
+      "sm": { "$value": "{space.12}", "$type": "number" },
+      "md": { "$value": "{space.16}", "$type": "number" }
+    },
+    "list": {
+      "sm": { "$value": "{space.12}", "$type": "number" },
+      "md": { "$value": "{space.16}", "$type": "number" },
+      "lg": { "$value": "{space.24}", "$type": "number" }
+    },
+    "productCard": {
+      "inset": { "$value": "{space.4}", "$type": "number" },
+      "stack": { "$value": "{space.8}", "$type": "number" }
+    },
+    "infoCard": {
+      "inset": { "$value": "{space.12}", "$type": "number" },
+      "stack": { "$value": "{space.8}", "$type": "number" }
+    },
+    "filterChip": {
+      "insetX": { "$value": "{space.16}", "$type": "number" },
+      "insetY": { "$value": "{space.8}", "$type": "number" }
+    },
+    "pdp": {
+      "section": { "$value": "{space.24}", "$type": "number" },
+      "optionCluster": { "$value": "{space.8}", "$type": "number" }
+    },
+    "viewer": {
+      "controlGap": { "$value": "{space.16}", "$type": "number" }
+    },
+    "checkout": {
+      "section": { "$value": "{space.24}", "$type": "number" },
+      "stack": { "$value": "{space.12}", "$type": "number" },
+      "inset": { "$value": "{space.16}", "$type": "number" }
+    }
+  }
+}
