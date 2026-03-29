@@ -1,0 +1,11 @@
+{
+  "stroke": {
+    "width": {
+      "none": { "$value": "{stroke.0}", "$type": "number" },
+      "hairline": { "$value": "{stroke.1}", "$type": "number" },
+      "default": { "$value": "{stroke.2}", "$type": "number" },
+      "emphasis": { "$value": "{stroke.3}", "$type": "number" },
+      "focus": { "$value": "{stroke.2}", "$type": "number" }
+    }
+  }
+}
