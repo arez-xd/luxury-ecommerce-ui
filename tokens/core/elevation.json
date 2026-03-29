@@ -1,0 +1,42 @@
+{
+  "elevation": {
+    "surface": {
+      "rest": { "$value": [
+  {
+    "color": "#0000000A",
+    "offsetX": 0,
+    "offsetY": 1,
+    "blur": 2,
+    "spread": 0
+  }
+], "$type": "shadow" },
+      "raised": { "$value": [
+  {
+    "color": "#00000014",
+    "offsetX": 0,
+    "offsetY": 8,
+    "blur": 24,
+    "spread": -12
+  }
+], "$type": "shadow" },
+      "floating": { "$value": [
+  {
+    "color": "#0000001F",
+    "offsetX": 0,
+    "offsetY": 16,
+    "blur": 40,
+    "spread": -20
+  }
+], "$type": "shadow" },
+      "overlay": { "$value": [
+  {
+    "color": "#00000029",
+    "offsetX": 0,
+    "offsetY": 24,
+    "blur": 64,
+    "spread": -24
+  }
+], "$type": "shadow" }
+    }
+  }
+}
