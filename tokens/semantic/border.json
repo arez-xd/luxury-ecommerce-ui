@@ -1,0 +1,62 @@
+{
+  "border": {
+    "control": {
+      "default": { "$value": {
+  "color": "{color.base.neutral.200}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" },
+      "disabled": { "$value": {
+  "color": "{color.base.neutral.100}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" },
+      "focused": { "$value": {
+  "color": "{color.base.gold.500}",
+  "width": "{stroke.2}",
+  "style": "{border.style.solid}"
+}, "$type": "border" }
+    },
+    "separator": {
+      "default": { "$value": {
+  "color": "{color.base.neutral.100}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" },
+      "strong": { "$value": {
+  "color": "{color.base.neutral.200}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" }
+    },
+    "card": {
+      "default": { "$value": {
+  "color": "{color.base.neutral.100}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" }
+    },
+    "status": {
+      "success": { "$value": {
+  "color": "{color.base.green.500}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" },
+      "error": { "$value": {
+  "color": "{color.base.red.500}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" },
+      "warning": { "$value": {
+  "color": "{color.base.amber.500}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" },
+      "info": { "$value": {
+  "color": "{color.base.blue.500}",
+  "width": "{stroke.1}",
+  "style": "{border.style.solid}"
+}, "$type": "border" }
+    }
+  }
+}
