@@ -1,8 +1,8 @@
 {
   "border": {
     "style": {
-      "solid": { "$type": "string", "$value": "solid" },
-      "dashed": { "$type": "string", "$value": "dashed" }
+      "solid": { "$value": "solid", "$type": "string" },
+      "dashed": { "$value": "dashed", "$type": "string" }
     }
   }
 }
