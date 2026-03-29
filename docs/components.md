@@ -2,8 +2,6 @@
 
 This design system documents component contracts even though components themselves are implemented in product repositories.
 
-For missing real-product contracts derived from the Jewelett Figma file, see [figma-gap-analysis.md](/Users/adamreznik/Documents/Work/Jewelett/Design_system/luxury-ecommerce-ui/docs/figma-gap-analysis.md).
-
 ## Contract rules
 
 - Components consume semantic tokens only.
