@@ -1,0 +1,10 @@
+{
+  "elevation": {
+    "surface": {
+      "rest": { "$value": "{elevation.surface.rest}", "$type": "shadow" },
+      "raised": { "$value": "{elevation.surface.raised}", "$type": "shadow" },
+      "floating": { "$value": "{elevation.surface.floating}", "$type": "shadow" },
+      "overlay": { "$value": "{elevation.surface.overlay}", "$type": "shadow" }
+    }
+  }
+}
