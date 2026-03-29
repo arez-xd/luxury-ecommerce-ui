@@ -1,33 +1,51 @@
-# Spacing System
+# Spacing
 
-The spacing system defines a small, fixed set of spacing values used across the interface.
+## Scale
 
-It is designed to support consistent layout rhythm while remaining easy to reason about.
+The spacing scale is deliberately compact and predictable:
 
-## Spacing scale
+- 0
+- 2
+- 4
+- 6
+- 8
+- 10
+- 12
+- 16
+- 20
+- 24
+- 32
+- 40
+- 48
+- 56
+- 64
+- 80
 
-The system uses a limited spacing scale:
+## Semantic usage buckets
 
-- xs
-- sm
-- md
-- lg
-- xl
+Spacing is consumed through role-based groups:
 
-Each value maps to a fixed numeric step defined in core tokens.
+- `space.inset.*`
+- `space.stack.*`
+- `space.cluster.*`
+- `space.section.*`
+- `space.control.*`
+- `space.field.*`
+- `space.list.*`
 
-## Usage
+## Why this shape
 
-Spacing tokens are used for:
+The reference app mixes editorial moments and dense shopping utilities.
 
-- padding
-- margin
-- gaps between elements
+That requires:
 
-The same spacing tokens apply across these contexts.
-Specific placement (e.g. horizontal vs vertical) is defined at the component level.
+- enough tight values for product cards and toolbars
+- enough medium values for controls and forms
+- enough large values for section breathing room
 
-## Non-goals
+## Layout rules
 
-The spacing system does not attempt to encode layout rules or responsive behavior.
-Those concerns belong to components and layouts.
+- Use `inset.screen` for screen-level horizontal padding.
+- Use `stack.*` for vertical rhythm inside sections and cards.
+- Use `cluster.*` for inline control groups and metadata rows.
+- Use `section.*` only between major layout bands.
