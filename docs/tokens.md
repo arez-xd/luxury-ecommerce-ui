@@ -1,22 +1,54 @@
-# Token Architecture
+# Tokens
 
-This system uses a two-layer token model:
+## Model
 
-1. Core tokens
-2. Semantic tokens
+The repository uses a W3C DTCG-style shape with `$type` and `$value`.
 
-The separation allows visual changes without breaking component contracts.
+Core and semantic tokens are stored separately so they can be validated, mirrored into Figma, and exported to multiple runtimes without changing token meaning.
 
-## Core tokens
+## Core categories
 
-Core tokens define raw primitives such as numeric scales and color values.
+- `color`
+- `space`
+- `typography`
+- `size`
+- `radius`
+- `border`
+- `stroke`
+- `elevation`
 
-They do not encode UI intent and are not consumed directly by components.
+## Semantic categories
 
-## Semantic tokens
+- `color`
+- `space`
+- `typography`
+- `size`
+- `radius`
+- `border`
+- `stroke`
+- `elevation`
 
-Semantic tokens define how values are used in the interface.
+## Naming rules
 
-They represent roles such as surfaces, text hierarchy, borders, and interaction states.
-UI components reference semantic tokens exclusively.
+- Use scale names or value names in Core.
+- Use role, state, and layer names in Semantic.
+- Avoid component names in Semantic unless the token represents a true reusable domain role.
+- Prefer `default`, `hover`, `pressed`, `disabled` for interactive states.
 
+## Figma-ready subset
+
+The following token categories can be mirrored directly as Variables:
+
+- color
+- space
+- size
+- radius
+- stroke
+- typography numeric fragments
+
+The following are valid tokens but not native Figma variable types:
+
+- `fontFamily`
+- border style strings
+- full border recipes
+- elevation composites
