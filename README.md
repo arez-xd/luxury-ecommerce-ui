@@ -73,9 +73,6 @@ Nothing in this system exists purely for demonstration.
 ```text
 design-system/
 ├── README.md
-├── package.json
-├── scripts/
-│   └── build-tokens.mjs
 ├── tokens/
 │   ├── core/
 │   │   ├── color.json
