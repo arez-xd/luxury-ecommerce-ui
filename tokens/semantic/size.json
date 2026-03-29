@@ -1,0 +1,78 @@
+{
+  "size": {
+    "nav": {
+      "bar": {
+        "height": { "$value": "{size.52}", "$type": "number" }
+      },
+      "icon": { "$value": "{size.20}", "$type": "number" }
+    },
+    "hero": {
+      "control": {
+        "active": { "$value": "{size.16}", "$type": "number" },
+        "inactive": { "$value": "{size.6}", "$type": "number" }
+      }
+    },
+    "viewer": {
+      "toolbar": {
+        "height": { "$value": "{size.56}", "$type": "number" }
+      },
+      "control": { "$value": "{size.24}", "$type": "number" }
+    },
+    "hitArea": {
+      "min": { "$value": "{size.44}", "$type": "number" }
+    },
+    "control": {
+      "height": {
+        "sm": { "$value": "{size.36}", "$type": "number" },
+        "md": { "$value": "{size.44}", "$type": "number" },
+        "lg": { "$value": "{size.52}", "$type": "number" }
+      }
+    },
+    "field": {
+      "height": {
+        "md": { "$value": "{size.44}", "$type": "number" },
+        "lg": { "$value": "{size.56}", "$type": "number" }
+      }
+    },
+    "icon": {
+      "xs": { "$value": "{size.12}", "$type": "number" },
+      "sm": { "$value": "{size.16}", "$type": "number" },
+      "md": { "$value": "{size.20}", "$type": "number" },
+      "lg": { "$value": "{size.24}", "$type": "number" },
+      "xl": { "$value": "{size.32}", "$type": "number" }
+    },
+    "avatar": {
+      "sm": { "$value": "{size.24}", "$type": "number" },
+      "md": { "$value": "{size.32}", "$type": "number" },
+      "lg": { "$value": "{size.40}", "$type": "number" }
+    },
+    "thumbnail": {
+      "sm": { "$value": "{size.72}", "$type": "number" },
+      "md": { "$value": "{size.96}", "$type": "number" },
+      "lg": { "$value": "{size.120}", "$type": "number" }
+    },
+    "productCard": {
+      "media": {
+        "sm": { "$value": "{size.72}", "$type": "number" },
+        "md": { "$value": "{size.96}", "$type": "number" }
+      },
+      "favoriteTapTarget": { "$value": "{size.24}", "$type": "number" }
+    },
+    "categoryTile": {
+      "media": {
+        "sm": { "$value": "{size.96}", "$type": "number" },
+        "md": { "$value": "{size.120}", "$type": "number" }
+      }
+    },
+    "optionChip": {
+      "height": { "$value": "{size.32}", "$type": "number" }
+    },
+    "swatch": { "$value": "{size.20}", "$type": "number" },
+    "checkout": {
+      "thumb": { "$value": "{size.72}", "$type": "number" }
+    },
+    "divider": {
+      "hairline": { "$value": "{stroke.1}", "$type": "number" }
+    }
+  }
+}
