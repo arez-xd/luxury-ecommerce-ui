@@ -6,6 +6,11 @@ dist/
 build/
 .tokens/
 .generated/
+!tokens/build/
+!tokens/build/ios/
+!tokens/build/ios/tokens.swift
+!tokens/build/ts/
+!tokens/build/ts/tokens.ts
 
 # OS
 .DS_Store
@@ -13,3 +18,4 @@ build/
 # Editors
 .idea/
 .vscode/
+
