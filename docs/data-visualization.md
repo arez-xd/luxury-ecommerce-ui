@@ -1,4 +1,4 @@
-# Data Visualisation
+# Data Visualization
 
 ## Role
 
