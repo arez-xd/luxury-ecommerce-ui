@@ -138,14 +138,6 @@ Some parts of the system remain documentation-side or style-side rather than nat
 - border composites
 - elevation composites
 
-## Product Parity
-
-The repository now contains a production-grade foundation layer plus product-specific semantic coverage for navigation, hero surfaces, product cards, PDP configuration, viewer controls, trust sections, and checkout.
-
-For remaining deltas against the Figma source of truth, see:
-
-- [figma-gap-analysis.md](/Users/adamreznik/Documents/Work/Jewelett/Design_system/luxury-ecommerce-ui/docs/figma-gap-analysis.md)
-
 ## Status
 
 This repository contains an anonymized snapshot of a production-oriented design system.
